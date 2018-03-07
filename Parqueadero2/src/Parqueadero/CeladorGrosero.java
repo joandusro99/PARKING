@@ -11,9 +11,38 @@ package Parqueadero;
  */
 public class CeladorGrosero {
    
-    String saludar;
-    String piropo;
-    String adular;
-   
+   String saludarh(){
+        return "Hola mi doctor.";
+    }
+    String saludarm(){
+        return "Que cuerpazo miamol";
+    }
+    String sobrio(){
+        return "Buenos días";
+    }
+    String ebrio(){
+        return "Largo de acá lokitaaa";
+    }
+    String gafas(){
+        return "Recuerde sus gafas";
+    }
     
+    String saludar(int sexo, int nalcohol, int gafas){
+        if (sexo==0){
+            return saludarm();            
+        }else{
+            return saludarh();
+        }
+        if (nalcohol>1){
+            return ebrio();
+        }else{
+            return sobrio();
+        }
+        if (gafas==1){
+            return gafas();
+        }else{
+            return "";
+        }
+    }
+        
 }

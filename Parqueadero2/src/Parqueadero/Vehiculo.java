@@ -7,12 +7,23 @@ package Parqueadero;
 
 /**
  *
- * @author Estudiantes
+ * @author Usuario
  */
-public class Propietario {
+public class Vehiculo {
 
-    int niveldealcohol;
-    String nombre;
-    int sexo;
-    int gafas;
+    public String marca;
+    public float modelo;
+    public int año;
+    public int cilindraje;
+
+    void acelerar() {
+
+    }
+
+    ;
+    void frenar() {
+
+    }
+;
+
 }

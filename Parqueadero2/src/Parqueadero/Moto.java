@@ -7,12 +7,12 @@ package Parqueadero;
 
 /**
  *
- * @author Estudiantes
+ * @author Usuario
  */
-public class Propietario {
+public class Moto extends Vehiculo{
+    
+    void derrapar() {
 
-    int niveldealcohol;
-    String nombre;
-    int sexo;
-    int gafas;
+    }
+    
 }
